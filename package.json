@@ -1,0 +1,21 @@
+{
+  "name": "@saf/date-only",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "compile": "rm -rf ./dist/ && tsc",
+    "test": "npm run compile && node --test \"**/*.test.js\""
+  },
+  "keywords": [],
+  "author": "p-safin",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.5"
+  }
+}
