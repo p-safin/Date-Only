@@ -7,6 +7,7 @@
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "compile": "rm -rf ./dist/ && npm run build",
     "test": "npm run compile && node --test \"**/*.test.js\""
